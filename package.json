@@ -4,16 +4,14 @@
   "description": "build using node js ",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec bable-node server.js --ignore public/",
-    "dev" : "webpack -wd"
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/testdev64/node_development.git"
   },
-  "keywords": [
-
-  ],
+  "keywords": [],
   "author": "Rahul",
   "license": "ISC",
   "bugs": {
