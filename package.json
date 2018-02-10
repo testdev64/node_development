@@ -1,0 +1,42 @@
+{
+  "name": "heruko_app",
+  "version": "1.0.0",
+  "description": "build using node js ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec bable-node server.js --ignore public/",
+    "dev" : "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testdev64/node_development.git"
+  },
+  "keywords": [
+
+  ],
+  "author": "Rahul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/testdev64/node_development/issues"
+  },
+  "homepage": "https://github.com/testdev64/node_development#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mangodb": "^1.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.17.0",
+    "eslint-plugin-react": "^7.6.1",
+    "nodemon": "^1.14.12",
+    "webpack": "^3.10.0"
+  }
+}
