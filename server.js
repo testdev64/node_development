@@ -7,7 +7,7 @@ const server = express();
 
 server.get('/',(req , res) => {
   res.render('index',{
-    content : 'Hello Express and EJS!'
+    content : '...'
   });
 });
 
